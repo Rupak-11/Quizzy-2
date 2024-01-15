@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Salsa", cursive;
+    
+   
+    
+}
+main{
+    gap:15px;
+    word-break: break-all;
+    
+}
+h1{
+    text-align: center;
+    font-size: 2rem;
+    padding: 12px 3px;
+    color: whitesmoke;
+    background: linear-gradient(to right , black , rgb(27, 27, 27));
+}
+
+div p:first-child{
+    background-color: yellow;
+    color: red;
+    font-size: 1.5rem;
+    transition: all ease 0.5s;
+}
+
+div p:first-child:hover{
+    background-color: red;
+    color: yellow;
+    cursor: pointer;
+}
+
+div p{
+    background-color: blue;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    transition: all ease 0.5s;
+}
+
+div p:hover{
+    background-color: white;
+    color: blue;
+    cursor: pointer;
+}
+
+#preloader{
+    background: #fff url(Preloader.gif) center center no-repeat;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    z-index: 999;
+    
+
+}
